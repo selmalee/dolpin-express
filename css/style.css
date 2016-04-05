@@ -1,0 +1,146 @@
+* {
+	margin: 0; padding: 0;
+}
+html{
+	width: 100%; height: 100%;
+	background-color: #000;
+	color: #fff;
+	font-family: arial, sans-serif, "微软雅黑";
+}
+body {
+	width: 640px; height: 100%;
+	margin: 0 auto;
+}
+img {
+	display: block;
+}
+.section {
+	position: relative;
+	width: 100%;
+	text-align: center; padding: 0;
+	margin: 0 0 -1px 0;
+}
+.absolute {
+	position: absolute;
+}
+
+/* -------------------------- nav ---------------------------------*/
+#nav {
+	background-color: #333; color: #fff;
+	text-align: left;
+}
+#nav_1 {
+	width: 7%; float: left; margin: 2% 0 0 2%;
+}
+#nav_2 {
+	padding: 2% 0 3% 10%;
+}
+
+/* -------------------------- section_1 ---------------------------------*/
+#section_1 {
+	background-color: #f5a021;
+}
+#s1_1 {
+	width: 17%; padding: 8% 0 3% 41.5%;
+}
+#s1_2 {
+	font-size: 2.5rem; margin: 0 auto;
+}
+#s1_4 {
+	width: 78%; padding: 4% 0 2% 11%;
+}
+#s1_5 {
+	width: 73%; padding: 0 0 7% 13.5%;
+}
+#s1_6 {
+	right: 0%; top: 0%;
+	width: 50%;
+}
+
+/* -------------------------- section_2 ---------------------------------*/
+#section_2 {
+	background: #35c1dc url("http://119.29.142.213/dolpin-express/img/720x_02.jpg") left bottom no-repeat;
+	background-size: 100% auto;
+
+}
+#s2_1 {
+	width: 72%; padding: 5% 0 12% 14%;
+}
+#s2_2 {
+	font-size: 2.4rem;
+}
+#s2_3 {
+	font-size: 0.9rem; padding: 2% 0 25% 5%; width: 90%;
+}
+
+/* -------------------------- section_3 ---------------------------------*/
+#section_3 {
+	background: #fff url("http://119.29.142.213/dolpin-express/img/720x_04.jpg") left bottom no-repeat;
+	background-size: 100% auto;
+	color: #f16b22;
+}
+#s3_1 {
+	font-size: 2.4rem;
+	padding: 5% 0 0 0;
+}
+#s3_2 {
+	font-size: 0.9rem; padding: 2% 0;
+}
+#s3_3 {
+	width: 55%; padding: 0 0 20% 22.5%;
+}
+
+/* -------------------------- section_4 ---------------------------------*/
+#section_4 {
+	background-color: #d63b3f;
+}
+#s4_1 {
+	width: 40%; left: 1%; top: 8%;
+}
+#s4_2 {
+	font-size: 2.4rem; padding: 12% 0 0 41%;
+	text-align: left;
+}
+#s4_3 {
+	font-size: 0.9rem; padding: 2% 2% 18% 41%;
+	text-align: left;
+}
+
+/* -------------------------- section_5 ---------------------------------*/
+#section_5 {
+	background-color: #3d599a;
+}
+#s5_1 {
+	font-size: 2.4rem; padding: 6% 0 0 0;
+}
+#s5_2 {
+	font-size: 0.9rem; padding: 2% 0 0 6%; width: 88%;
+}
+#s5_3 {
+	width: 85%; padding: 6% 0 8% 7.5%;
+}
+/* -------------------------- footer ---------------------------------*/
+#footer {
+	background-color: #fff;
+	color: #999;
+}
+#ft_1 {
+	width: 70%; padding: 6% 0 4% 15%;
+}
+#ft_2, #ft_3 {
+	display: inline-block; padding: 0 4% 3% 0;
+	width: 11%;
+}
+#ft_4 {
+	font-size: .7rem; padding: 3% 0;
+}
+hr {
+	width: 80%; margin-left: 10%;
+}
+
+
+@media sreen and (max-width: 640px){
+	body {
+		width: 100%;
+	}
+}
